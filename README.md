@@ -3,18 +3,11 @@ This is the dataset for the paper entitled "Feature-Driven Economic Improvement 
 
 This dataset is saved as .xlsx and includes:
 
-* Day-ahead prediction and actual realization of Belgian load (From 2018/01/01 to 2020/12/31)
-  
-* Day-ahead prediction and actual realization of solar power farms in Belgium (From 2018/01/01 to 2020/12/31)
-* Day-ahead prediction and actual realization of wind power farms in Belgium (From 2018/01/01 to 2020/12/31)
-* Configurations of modified IEEE RTS 24-bus system
-* Configurations of 5655-bus system 
+* Day-ahead prediction and actual realization of Belgian load, solar power farms, wind power farms. (From 2018/01/01 to 2020/12/31) 
+* Configurations of modified IEEE RTS 24-bus system.
+* Configurations of 5655-bus system. 
+* Well-collected feature vectors.
 
-* Well-collected feature vectors
-[Feature.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314178/Feature.xlsx)
-
-To understand our modification on IEEE RTS 24-bus system, please check the following map.
-
-[Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314168/Map.pdf)
+To understand our modification on IEEE RTS 24-bus system, please check the following map. [Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314204/Map.pdf)
 
 If you are confused about our data, please feel free to contact me at xchen130@stevens.edu
