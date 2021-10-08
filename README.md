@@ -12,4 +12,6 @@ This dataset includes:
 
 To understand our modification on IEEE RTS 24-bus system, please check the following map.
 
+[Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314168/Map.pdf)
+
 If you are confused about our data, please feel free to contact me at xchen130@stevens.edu
