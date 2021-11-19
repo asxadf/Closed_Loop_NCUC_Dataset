@@ -20,4 +20,4 @@ Note that the load-RES data is collected every 15 minutes, so we add the subhour
 
 To show our modification on IEEE RTS 24-bus system, we plot a map. Just check it out! [Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314204/Map.pdf)
 
-If you are interested in our data or case studies, please feel free to contact me at xchen130@stevens.edu. It's my pleasesure to share them with you.🤨
+If you are interested in our data or case studies, please feel free to contact me at xchen130@stevens.edu. It's my pleasesure to share them with you. 🤨
