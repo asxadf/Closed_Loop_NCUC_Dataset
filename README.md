@@ -1,7 +1,7 @@
 # Closed_Loop_NCUC_Dataset-Load_RES_Feature_System
 This is the dataset for the paper entitled "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework"
 
-The data is collected and modified from Belgian ISO named Elia. https://www.elia.be/en/grid-data
+The data is collected from a Belgian ISO.
 
 This dataset is saved as .xlsx and includes:
 
