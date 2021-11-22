@@ -12,7 +12,8 @@ This dataset is saved as .xlsx and includes:
 * Day-ahead prediction and actual realization of 7 wind power farms in Belgium. (From 2018/01/01 to 2020/12/31) [Wind_power_farm.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset/files/7584374/Wind_power_farm.xlsx)
 
 * Configurations of modified IEEE RTS 24-bus system. [System_IEEE_24_bus.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314314/System_IEEE_24_bus.xlsx)
-* Configurations of 5655-bus system. [System_ISO_5655_bus.xlsx] [System_ISO_5655_bus.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset_Load_RES_Feature_System/files/7314468/System_ISO_5655_bus.xlsx)
+
+* Configurations of 5655-bus system. [System_ISO_5655_bus.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset_Load_RES_Feature_System/files/7314468/System_ISO_5655_bus.xlsx)
 
 * Well-collected feature vectors. [Feature.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314316/Feature.xlsx)
 
