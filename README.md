@@ -21,9 +21,8 @@ The data is collected from a Belgian ISO. This dataset is saved as .xlsx and inc
 Note that the load-RES data is collected every 15 minutes, so we add the subhour label to distinguish them.
 
 To show our modification on IEEE RTS 24-bus system, we plot a map. Just check it out! [Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314204/Map.pdf)
+
 Recently, we presented the work. Just check it out! [OR_Presentation.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset/files/7739919/OR_Presentation.pdf)
-
-
 
 We believe it is meaningful and helpful to enable the code open-access. So we upload the codes for the 24-bus case here. It requires MATLAB as the platform and GUROBI/CPLEX/MOSEK as the solver.
 
