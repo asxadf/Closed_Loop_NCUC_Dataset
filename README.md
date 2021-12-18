@@ -1,9 +1,10 @@
 # Closed_Loop_NCUC_Dataset-Load_RES_Feature_System
-This is the dataset for the paper entitled "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework"
+The followings are the dataset and the codes for the paper entitled "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework"
 
-The data is collected from a Belgian ISO.
+If they are helpful in your research, please cite our paper:
+Xianbang Chen, Yafei Yang, Yikui Liu, and Lei Wu. "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework," \textit{IEEE Transaction on Power Systems}, 2021.
 
-This dataset is saved as .xlsx and includes:
+The data is collected from a Belgian ISO. This dataset is saved as .xlsx and includes:
 
 * Day-ahead prediction and actual realization of Belgian load. (From 2018/01/01 to 2020/12/31) [Load.xlsx](https://github.com/asxadf/Closed_Loop_NCUC_Dataset/files/7584372/Load.xlsx)
 
@@ -21,4 +22,6 @@ Note that the load-RES data is collected every 15 minutes, so we add the subhour
 
 To show our modification on IEEE RTS 24-bus system, we plot a map. Just check it out! [Map.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset-Load_RES_Feature_System/files/7314204/Map.pdf)
 
-If you are interested in our data or case studies, please feel free to contact me at xchen130@stevens.edu. It's my pleasesure to share them with you. 🤨
+We believe it is meaningful and helpful to enable the code open-access. So we upload the codes for the 24-bus case here.
+
+If you are interested in our data, case studies, and codes, please feel free to contact me at xchen130@stevens.edu. It's my pleasure to share them with you. 🤨
