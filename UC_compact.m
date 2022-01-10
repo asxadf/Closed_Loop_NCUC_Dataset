@@ -3,6 +3,9 @@
 % Improvement for Network-Constrained Unit Commitment: A Closed-Loop
 % Predict-and-Optimize Framework.
 %
+% Note that this is a COMPACT FORMULATION for UC. We utilized the export
+% function of YALMIP to export the constant matrices.
+%
 % Please let me know if you have concerns about this code.
 % It is my pleasure to discuss/explain with you.
 %
