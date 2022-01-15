@@ -24,6 +24,6 @@ To show our modification on IEEE RTS 24-bus system, we plot a map. Just check it
 
 Recently, we presented the work. Just check it out! [OR_Presentation.pdf](https://github.com/asxadf/Closed_Loop_NCUC_Dataset/files/7739919/OR_Presentation.pdf)
 
-We believe it is meaningful and helpful to enable the code open-access. So we upload the codes for the 24-bus case here. It requires MATLAB as the platform and GUROBI/CPLEX/MOSEK as the solver.
+We believe it is meaningful and helpful to enable the code open-access. So we upload the codes for the 24-bus case here. It requires MATLAB as the platform, GUROBI as the solver, and YALMIP to call GUROBI.
 
 If you are interested in our data, case studies, and codes, please feel free to contact me at xchen130@stevens.edu. It's my pleasure to share them with you. 🤨
