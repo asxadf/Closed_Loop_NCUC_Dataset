@@ -2,7 +2,7 @@
 The followings are the dataset and the codes for the paper entitled "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework"
 
 If they are helpful in your research, please cite our paper:
-Xianbang Chen, Yafei Yang, Yikui Liu, and Lei Wu. "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework," IEEE Transaction on Power Systems, 2021.
+X. Chen, Y. Yang, Y. Liu and L. Wu, "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework," in IEEE Transactions on Power Systems, vol. 37, no. 4, pp. 3104-3118, July 2022, doi: 10.1109/TPWRS.2021.3128485.
 
 The data is collected from a Belgian ISO. This dataset is saved as .xlsx and includes:
 
