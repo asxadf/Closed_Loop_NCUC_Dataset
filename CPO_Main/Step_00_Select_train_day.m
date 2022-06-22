@@ -189,6 +189,7 @@ end
 %% ---------------------Sort historic day's distance-------------------- %%
 % Recent case
 [~, Place_sorted] = sort(Picked_HIS_PE_CUS_dis, 'descend');
+Place_sorted = Place_sorted(floor(Number_historic_day/2):floor(Number_historic_day/2)+1);
 Picked_TRA_intuition = (Historic_day_1st_intuition - 1) + Place_sorted(1:Number_training_day_intuition);
 Picked_TRA_1st_iteration  = (Picked_TRA_intuition-1)*4 + 1;
 Picked_TRA_end_iteration  = Picked_TRA_intuition*4;
