@@ -1,3 +1,19 @@
+# Update as of September 2024
+Some colleagues recently pointed out that the code produces NaN results. This issue is due to current limitations in YALMIP's support for solver parameter tuning. 
+
+To address this, please try commenting out the following lines in Step 01 and Step 02:
+
+```matlab
+ops.gurobi.MIPGap    = Solver_gap/100;
+ops.gurobi.TimeLimit = Solver_time*60;
+ops.cplex.mip.tolerances.mipgap = Solver_gap/100;
+ops.cplex.timelimit = Solver_time*60;
+ops.mosek.MSK_DPAR_MIO_TOL_REL_GAP = Solver_gap/100;
+ops.mosek.MSK_DPAR_MIO_MAX_TIME = Solver_time*60;
+```
+
+The code has been updated accordingly. Thank you for your feedback!
+
 # Closed_Loop_NCUC_Dataset-Load_RES_Feature_System
 The followings are the dataset and the codes for the paper entitled "Feature-Driven Economic Improvement for Network-Constrained Unit Commitment: A Closed-Loop Predict-and-Optimize Framework"
 
