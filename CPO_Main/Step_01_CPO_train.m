@@ -171,18 +171,18 @@ Constraint = [UC_A_ineq*x <= UC_b_ineq]...
 %% --------------------------------Solve it----------------------------- %%       
 if Solver_flag == 'g' 
     ops = sdpsettings('solver', 'gurobi');
-    ops.gurobi.MIPGap    = Solver_gap/100;
-    ops.gurobi.TimeLimit = Solver_time*60;
+    %ops.gurobi.MIPGap    = Solver_gap/100;
+    %ops.gurobi.TimeLimit = Solver_time*60;
 end
 if Solver_flag == 'c'
     ops = sdpsettings('solver', 'cplex');
-    ops.cplex.mip.tolerances.mipgap = Solver_gap/100; 
-    ops.cplex.timelimit             = Solver_time*60;
+    %ops.cplex.mip.tolerances.mipgap = Solver_gap/100; 
+    %ops.cplex.timelimit             = Solver_time*60;
 end
 if Solver_flag == 'm'
     ops = sdpsettings('solver', 'mosek');
-    ops.mosek.MSK_DPAR_MIO_TOL_REL_GAP = Solver_gap/100;
-    ops.mosek.MSK_DPAR_MIO_MAX_TIME    = Solver_time*60;
+    %ops.mosek.MSK_DPAR_MIO_TOL_REL_GAP = Solver_gap/100;
+    %ops.mosek.MSK_DPAR_MIO_MAX_TIME    = Solver_time*60;
 end
 obj = optimize(Constraint, CPO_TRA_obj, ops);
 CPO_TRA_time = obj.solvertime;
