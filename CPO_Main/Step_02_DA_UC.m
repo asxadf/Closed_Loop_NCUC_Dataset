@@ -153,7 +153,7 @@ for day = First_day_iteration:Final_day_iteration
     %
     %% -----------------------------Solve it---------------------------- %%
     ops = sdpsettings('solver', 'gurobi');
-    ops.gurobi.MIPGap = 1/100;
+    %ops.gurobi.MIPGap = 1/100;
     tic;
     t1 = clock;
     optimize(CC, Cost_UC, ops);
