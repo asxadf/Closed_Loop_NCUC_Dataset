@@ -34,19 +34,25 @@ If you find these resources helpful in your research, please cite our paper.
 ### Contents
 1. **Load.xlsx**  
    Day-ahead forecasts and actual realizations of Belgian (Elia) load from 2018/01/01 to 2020/12/31.
+   
    **Load_Elia_Grid_DAF.xlsx** is the day-ahead forecasting of the load;
+   
    **Load_Elia_Grid_ACT.xlsx** is the actual realization of the load;
 
-2. For renewables, please check CPO_Data_SPG_DAF.mat, CPO_Data_SPG_RUM.mat, CPO_Data_WPG_DAF.mat, and CPO_Data_WPG_RUM.mat.
+3. For renewables, please check CPO_Data_SPG_DAF.mat, CPO_Data_SPG_RUM.mat, CPO_Data_WPG_DAF.mat, and CPO_Data_WPG_RUM.mat.
+   
    SPG: Solar power generation;
+   
    WPG: Wind power generation;
+   
    DAF: Day-ahead forecasting;
+   
    RUM: Real-time unit measurement;
    
-3. **System_IEEE_24_bus.xlsx**  
+5. **System_IEEE_24_bus.xlsx**  
    Configurations of the modified IEEE RTS 24-bus system.
    
-4. **Feature.xlsx**  
+6. **Feature.xlsx**  
    Well-collected feature vectors.
    
 > **Note:** The load and renewable energy data are collected at 15-minute intervals, hence the sub-hour labels.
